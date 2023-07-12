@@ -1,11 +1,10 @@
 import "./styles/App.css";
+import Gameboard from "./components/Gameboard";
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello, React 18!</p>
-      </header>
+      <Gameboard />
     </div>
   );
 };
