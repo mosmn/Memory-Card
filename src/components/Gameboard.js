@@ -3,9 +3,10 @@ import Card from './Card';
 
 const Gameboard = () => {
     const [cards, setCards] = useState([
-        {id: 1, content: 'Lionel Messi', img: 'https://i.imgur.com/1XQ7Qb4.jpg'},
+        {id: 1, content: 'Lionel Messi', img: 'http://google.com/search?tbm=isch&q=Lionel+Messi'},
         {id: 2, content: 'Cristiano Ronaldo', img: 'https://i.imgur.com/1XQ7Qb4.jpg'},
         {id: 3, content: 'Neymar Jr', img: 'https://i.imgur.com/1XQ7Qb4.jpg'},
+        {id: 4, content: 'Kylian Mbappe', img: 'https://i.imgur.com/1XQ7Qb4.jpg'},
     ]);
 
     const shuffle = (array) => {
@@ -21,6 +22,7 @@ const Gameboard = () => {
 
     useEffect(() => {
         setCards(shuffle(cards));
+        console.log(cards);
     }, []);
 
     return (
