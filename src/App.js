@@ -1,5 +1,6 @@
 import "./styles/App.css";
 import { useState, useEffect } from "react";
+import Header from "./components/Header";
 import Gameboard from "./components/Gameboard";
 import Scoreboard from "./components/ScoreBoard";
 
@@ -23,8 +24,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Gameboard handleScore={handleScore} />
+      <Header />
       <Scoreboard currentScore={currentScore} bestScore={bestScore} />
+      <Gameboard handleScore={handleScore} />
     </div>
   );
 };
