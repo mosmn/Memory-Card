@@ -1,6 +1,6 @@
 # Memory Card Game
 
-The Memory Card Game is a web-based game where players test their memory skills by matching pairs of football (soccer) player cards. The objective is to accumulate as many points as possible without clicking on the same image more than once. 
+The Memory Card Game is a web-based memory card game where players earn points by clicking on images of football (soccer) players. The objective is to accumulate as many points as possible without clicking on the same image more than once. 
 
 This project aims to provide an entertaining and challenging gaming experience while showcasing the use of modern web technologies.
 
