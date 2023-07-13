@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Game",
+  "name": "Football Memory Game",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://w7.pngwing.com/pngs/993/318/png-transparent-soccer-ball-illustration-fc-barcelona-football-player-icon-football-purple-violet-sport-thumbnail.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://w7.pngwing.com/pngs/993/318/png-transparent-soccer-ball-illustration-fc-barcelona-football-player-icon-football-purple-violet-sport-thumbnail.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://w7.pngwing.com/pngs/993/318/png-transparent-soccer-ball-illustration-fc-barcelona-football-player-icon-football-purple-violet-sport-thumbnail.png",
       "type": "image/png",
       "sizes": "512x512"
     }
