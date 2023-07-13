@@ -1,7 +1,7 @@
 import "./styles/App.css";
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 import Gameboard from "./components/Gameboard";
-import Scoreboard from "./components/Scoreboard";
+import Scoreboard from "./components/ScoreBoard";
 
 const App = () => {
   const [currentScore, setCurrentScore] = useState(0);
@@ -23,7 +23,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <Gameboard />
+      <Gameboard handleScore={handleScore} />
+      <Scoreboard currentScore={currentScore} bestScore={bestScore} />
     </div>
   );
 };

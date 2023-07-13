@@ -1,12 +1,14 @@
-const Card = ({card, handleShuffle}) => {
-    return (
-        <div className="card" onClick={handleShuffle}>
-            <img src={card.img} alt={card.text} />
-            <p>{card.text}</p>
-        </div>
-    );
+const Card = ({ card, handleClick }) => {
+  return (
+    <div
+      id={card.id}
+      className="card"
+      onClick={handleClick.bind(this, card.id)}
+    >
+      <img src={card.img} alt={card.text} />
+      <p>{card.text}</p>
+    </div>
+  );
 };
-
-
 
 export default Card;
